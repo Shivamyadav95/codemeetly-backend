@@ -1,0 +1,7 @@
+FROM python:3.11-slim
+
+WORKDIR /app
+COPY python-run.sh /app/python-run.sh
+RUN chmod +x /app/python-run.sh
+
+ENTRYPOINT ["/app/python-run.sh"]
