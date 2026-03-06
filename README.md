@@ -61,6 +61,15 @@ src
  ├── entity
  ├── websocket
 
+ ## Environment Variables
+
+Create a `.env` file in the project root and add:
+
+- DB_PASSWORD=your_db_password
+- JWT_SECRET=your_jwt_secret
+- GOOGLE_CLIENT_ID=your_google_client_id
+- GOOGLE_CLIENT_SECRET=your_google_client_secret
+
 
  ---
 
